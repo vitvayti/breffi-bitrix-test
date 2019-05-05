@@ -159,8 +159,8 @@ $trendFilter = array('PROPERTY_TREND' => '4');
 );?>
 
 <?
-global $recommendFilter;
-$recomendFilter = array('!PROPERTY_RECOMMEND' => false);
+global $recommendationFilter;
+$recomendFilter = array('!PROPERTY_RECOMMENDATION' => false);
 ?>
 <h2>Рекомендуемые товары</h2>
 <?$APPLICATION->IncludeComponent(
@@ -182,7 +182,7 @@ $recomendFilter = array('!PROPERTY_RECOMMEND' => false);
         "ELEMENT_SORT_ORDER" => "desc",
         "ELEMENT_SORT_FIELD2" => "id",
         "ELEMENT_SORT_ORDER2" => "desc",
-        "FILTER_NAME" => "recomendFilter",
+        "FILTER_NAME" => "recommendationFilter",
         "INCLUDE_SUBSECTIONS" => "Y",
         "SHOW_ALL_WO_SECTION" => "Y",
         "HIDE_NOT_AVAILABLE" => "N",
