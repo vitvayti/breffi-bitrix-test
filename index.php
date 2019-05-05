@@ -186,7 +186,7 @@ $recomendFilter = array('!PROPERTY_RECOMMENDATION' => false);
         "INCLUDE_SUBSECTIONS" => "Y",
         "SHOW_ALL_WO_SECTION" => "Y",
         "HIDE_NOT_AVAILABLE" => "N",
-        "PAGE_ELEMENT_COUNT" => "12",
+        "PAGE_ELEMENT_COUNT" => "5",
         "LINE_ELEMENT_COUNT" => "3",
         "PROPERTY_CODE" => array(
             0 => "NEWPRODUCT",
@@ -274,7 +274,7 @@ $recomendFilter = array('!PROPERTY_RECOMMENDATION' => false);
         "ADD_TO_BASKET_ACTION" => "ADD",
         "PAGER_TEMPLATE" => "round",
         "DISPLAY_TOP_PAGER" => "N",
-        "DISPLAY_BOTTOM_PAGER" => "Y",
+        "DISPLAY_BOTTOM_PAGER" => "N",
         "PAGER_TITLE" => "Товары",
         "PAGER_SHOW_ALWAYS" => "N",
         "PAGER_DESC_NUMBERING" => "N",
